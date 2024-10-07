@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background: rgba(255, 255, 255, 0.1); /* Transparent white background */
+  backdrop-filter: blur(10px); /* Apply background blur */
+  -webkit-backdrop-filter: blur(10px); /* For Safari compatibility */
+  border-radius: 12px; /* Smooth rounded corners */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: Light border for emphasis */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  padding: 20px;
+  color: white; /* Adjust text color for contrast */
+}
+
+.navigation {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.navigation .link {
+  font-size: 23px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.Account {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+.Account .link {
+  font-size: 23px;
+  text-decoration: none;
+  font-weight: 600;
+}
+/* Styling the Link containing the icon */
+.icon {
+  display: inline-flex; /* Flexbox to control alignment */
+  align-items: center; /* Center the icon vertically */
+  justify-content: center; /* Center the icon horizontally */
+  padding: 10px; /* Add some padding around the icon */
+  text-decoration: none; /* Remove underline from the Link */
+  cursor: pointer; /* Show pointer on hover */
+  color: black; /* Set the color of the icon */
+  transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+/* Styling the icon directly */
+.icon svg {
+  font-size: 36px; /* Increased size of the icon */
+  color: #000; /* Initial color of the icon */
+}
+
+/* Hover effect */
+.icon:hover svg {
+  color: #ff5733; /* Change the icon color when hovered */
+}
+
+/* You can also animate the icon on hover */
+.icon:hover svg {
+  transform: scale(1.2); /* Slightly enlarge on hover */
+  transition: transform 0.2s ease-in-out;
+}
+.login {
+  padding: 10px;
+  /* background-color: #000; */
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
+.login:hover {
+  background-color: #000;
+  color: white;
+}
+
+.signup {
+  padding: 10px;
+  /* background-color: #000; */
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
+.signup:hover {
+    background-color: rgb(22, 16, 102);
+    color: white;
+}
