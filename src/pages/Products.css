@@ -1,0 +1,77 @@
+.products {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-buttons {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.filter-buttons button {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.product-list {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column; /* Align content in a column */
+  justify-content: space-betwee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 300px; /* Three columns with some margin */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center align text */
+}
+
+.card-body img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card-body h4 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.card-body p {
+  margin: 5px 0;
+}
+
+.card-body button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-body button:hover {
+  background-color: #218838;
+}

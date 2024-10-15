@@ -1,0 +1,30 @@
+footer {
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  column-gap: 20px;
+  background-color: transparent;
+  margin-top: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left:70px ;
+}
+
+.footer-1 p {
+  width: 230px;
+  line-height: 25px;
+}
+
+.footer-1 h1 {
+  font-size: 44px;
+  font-weight: 500;
+  /* line-height: 66px; */
+}
+
+.copywright {
+  text-align: center;
+  margin-top: 50px;
+}
