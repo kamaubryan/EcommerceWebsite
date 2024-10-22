@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import image1 from "../../assets/images-removebg-preview.png";
+import image1 from "../../../public/images-removebg-preview.png";
 import "./LandingPage.css";
 import FeaturedCards from "../../Components/FeaturedCards.jsx"; // Import the FeaturedCards component
 

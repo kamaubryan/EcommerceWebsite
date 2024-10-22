@@ -15,9 +15,9 @@ function Navbar({ cartCount }) {
         <Link to="/featured" className="link">
           Featured products
         </Link>
-        <Link className="link" to="/contact">
+        {/* <Link className="link" to="/contact">
           Contact Us
-        </Link>
+        </Link> */}
       </div>
       <div className="Account">
         <Link className="link signup" to="/signUp">
